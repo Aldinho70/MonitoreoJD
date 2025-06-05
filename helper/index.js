@@ -16,8 +16,6 @@ export function create_button_module(data, id_tag, filter) {
     for (const titulo in data) {
         if (Object.keys(filter).includes(titulo)) {
 
-            console.log( data, id_tag, filter );
-            
             const _titulo = filter[titulo];
             const _status_remove = (env.grupoInteres_modules[_titulo]) ? env.grupoInteres_modules[_titulo] : [];
             const _data = data[titulo];             
@@ -27,9 +25,6 @@ export function create_button_module(data, id_tag, filter) {
             const contSinConexion = Object.keys(_data.sinconexion).length;
             const contWarning = Object.keys(_data.warning).length;
             const contGeneral = contApagadas + contRalenti + contMovimiento + contSinConexion + contWarning;
-
-            console.log(_status_remove);
-            console.log(_titulo);
             
             $(id_tag).append(`<!-- Grupo -->
                 <div class="toast fade show w-100 " role="alert" aria-live="assertive" aria-atomic="true" id="${_titulo.replaceAll(" ", "_")}">
