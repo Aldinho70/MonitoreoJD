@@ -1,0 +1,31 @@
+.footer:hover {
+  background-color: orange; /* Cambio de color al pasar el mouse */
+}
+
+/* Ajuste de estilos para las tablas y divs con scroll */
+.scrollable-table,
+.scrollable-div,
+.scrollable-div-notifaciones,
+.scrollable-div-operaciones {
+  max-height: 80vh; 
+  overflow-y: auto;
+  /* padding: 10px; */
+} 
+
+/* Ajuste de estilos para las tablas y divs con scroll 
+.scrollable-table,
+.scrollable-div,
+.scrollable-div-notifaciones,
+.scrollable-div-operaciones {
+  max-height: 79vh; /* Cambia la altura máxima según sea necesario 
+  overflow-y: auto;
+  padding: 10px;
+}*/
+
+.scrollable-div-modal {
+  max-height: 35vh; /* Cambia la altura máxima según sea necesario */
+  overflow-y: auto;
+  padding: 10px;
+}
+
+

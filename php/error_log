@@ -1,0 +1,846 @@
+[30-May-2024 23:04:14 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php on line 21
+[30-May-2024 23:04:14 UTC] PHP Stack trace:
+[30-May-2024 23:04:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php:0
+[30-May-2024 23:04:23 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php on line 21
+[30-May-2024 23:04:23 UTC] PHP Stack trace:
+[30-May-2024 23:04:23 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php:0
+[30-May-2024 23:04:53 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php on line 21
+[30-May-2024 23:04:53 UTC] PHP Stack trace:
+[30-May-2024 23:04:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php:0
+[30-May-2024 23:05:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php on line 21
+[30-May-2024 23:05:29 UTC] PHP Stack trace:
+[30-May-2024 23:05:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php:0
+[30-May-2024 23:07:20 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php on line 21
+[30-May-2024 23:07:20 UTC] PHP Stack trace:
+[30-May-2024 23:07:20 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php:0
+[30-May-2024 23:07:37 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php on line 21
+[30-May-2024 23:07:37 UTC] PHP Stack trace:
+[30-May-2024 23:07:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php:0
+[09-Jun-2024 12:13:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Host 'p3plzcpnl450414.prod.phx3.secureserver.net' is not allowed to connect to this MariaDB server in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/ConexionBD.php:12
+Stack trace:
+#0 /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/ConexionBD.php(12): mysqli->__construct()
+#1 /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/insert_Notificaciones.php(7): ConexionBD->conectar()
+#2 {main}
+  thrown in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/ConexionBD.php on line 12
+[15-Jun-2024 10:18:14 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:18:14 UTC] PHP Stack trace:
+[15-Jun-2024 10:18:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:18:14 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:18:14 UTC] PHP Stack trace:
+[15-Jun-2024 10:18:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:18:27 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:18:27 UTC] PHP Stack trace:
+[15-Jun-2024 10:18:27 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:18:27 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:18:27 UTC] PHP Stack trace:
+[15-Jun-2024 10:18:27 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:32:10 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:32:10 UTC] PHP Stack trace:
+[15-Jun-2024 10:32:10 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:32:10 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:32:10 UTC] PHP Stack trace:
+[15-Jun-2024 10:32:10 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:32:17 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:32:17 UTC] PHP Stack trace:
+[15-Jun-2024 10:32:17 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:32:17 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:32:17 UTC] PHP Stack trace:
+[15-Jun-2024 10:32:17 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:37:59 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:37:59 UTC] PHP Stack trace:
+[15-Jun-2024 10:37:59 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:37:59 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:37:59 UTC] PHP Stack trace:
+[15-Jun-2024 10:37:59 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:38:08 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:38:08 UTC] PHP Stack trace:
+[15-Jun-2024 10:38:08 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:38:08 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:38:08 UTC] PHP Stack trace:
+[15-Jun-2024 10:38:08 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:38:26 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:38:26 UTC] PHP Stack trace:
+[15-Jun-2024 10:38:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:38:26 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:38:26 UTC] PHP Stack trace:
+[15-Jun-2024 10:38:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:29 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:29 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:36 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:36 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:36 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:36 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:36 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:36 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:46 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:46 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:46 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:46 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:46 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:46 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:47 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:47 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:47 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:47 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:47 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:47 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:51 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:51 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:51 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:51 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:51 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:51 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:56 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:56 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:56 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:56 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:56 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:56 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:57 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:46:57 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:57 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:46:57 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:46:57 UTC] PHP Stack trace:
+[15-Jun-2024 10:46:57 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:02 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:02 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:02 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:02 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:06 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:06 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:06 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:06 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:06 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:06 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:08 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:08 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:08 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:08 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:08 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:08 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:09 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:09 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:09 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:09 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:09 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:09 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:09 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:09 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:12 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:12 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:12 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:12 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:12 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:12 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:17 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:17 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:17 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:17 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:17 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:17 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:19 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:19 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:19 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:19 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:23 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:23 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:23 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:23 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:23 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:23 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:29 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:29 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:34 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:47:34 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:47:34 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:47:34 UTC] PHP Stack trace:
+[15-Jun-2024 10:47:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:56:25 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:56:25 UTC] PHP Stack trace:
+[15-Jun-2024 10:56:25 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:56:25 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:56:25 UTC] PHP Stack trace:
+[15-Jun-2024 10:56:25 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:56:32 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 10:56:32 UTC] PHP Stack trace:
+[15-Jun-2024 10:56:32 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 10:56:32 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 10:56:32 UTC] PHP Stack trace:
+[15-Jun-2024 10:56:32 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:11 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:52:11 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:11 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:11 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:52:11 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:11 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:26 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:52:26 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:26 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:52:26 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:33 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:52:33 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:33 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:33 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:52:33 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:33 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:40 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:52:40 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:40 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:40 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:52:40 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:40 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:53 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:52:53 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:52:53 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:52:53 UTC] PHP Stack trace:
+[15-Jun-2024 11:52:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:00 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:00 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:00 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:00 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:00 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:00 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:07 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:07 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:07 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:07 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:07 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:07 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:13 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:13 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:13 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:13 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:13 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:13 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:34 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:34 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:34 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:34 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:41 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:41 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:41 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:41 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:41 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:41 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:48 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:48 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:48 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:48 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:48 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:48 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:58 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:53:58 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:58 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:53:58 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:53:58 UTC] PHP Stack trace:
+[15-Jun-2024 11:53:58 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:14 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:54:14 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:14 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:54:14 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:24 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:54:24 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:24 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:24 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:54:24 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:24 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:26 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:54:26 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:26 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:54:26 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:34 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:54:34 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:34 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:54:34 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:57 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 11:54:57 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:57 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 11:54:57 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 11:54:57 UTC] PHP Stack trace:
+[15-Jun-2024 11:54:57 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:22:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:22:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:37 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:22:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:37 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:22:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:49 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:22:49 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:49 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:49 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:22:49 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:49 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:53 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:22:53 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:22:53 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:22:53 UTC] PHP Stack trace:
+[15-Jun-2024 12:22:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:02 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:02 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:02 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:02 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:11 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:11 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:11 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:11 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:11 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:11 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:22 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:22 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:22 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:22 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:22 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:22 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:37 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:37 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:47 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:47 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:47 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:47 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:47 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:47 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:58 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:23:58 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:58 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:23:58 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:23:58 UTC] PHP Stack trace:
+[15-Jun-2024 12:23:58 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:09 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:49:09 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:09 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:49:09 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:26 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:49:26 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:26 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:49:26 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:34 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:49:34 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:34 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:49:34 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:41 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:49:41 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:41 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:41 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:49:41 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:41 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:51 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:49:51 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:51 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:49:51 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:49:51 UTC] PHP Stack trace:
+[15-Jun-2024 12:49:51 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:01 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:50:01 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:01 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:01 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:50:01 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:01 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:12 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:50:12 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:12 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:12 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:50:12 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:12 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:20 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:50:20 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:20 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:20 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:50:20 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:20 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:50:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:50:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:50 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:50:50 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:50 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:50:50 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:50:50 UTC] PHP Stack trace:
+[15-Jun-2024 12:50:50 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:02 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:02 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:02 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:02 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:14 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:14 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:14 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:14 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:14 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:20 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:20 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:20 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:20 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:20 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:20 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:30 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:30 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:30 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:30 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:30 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:30 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:37 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:37 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:44 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:44 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:44 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:44 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:44 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:44 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:52 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:51:52 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:51:52 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:51:52 UTC] PHP Stack trace:
+[15-Jun-2024 12:51:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:02 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:02 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:02 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:02 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:12 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:12 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:12 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:12 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:12 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:12 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:18 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:18 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:18 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:18 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:24 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:24 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:24 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:24 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:24 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:24 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:30 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:30 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:30 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:30 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:30 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:30 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:34 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:34 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:34 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:34 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:37 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:37 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:37 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:40 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:40 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:40 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:40 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:40 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:40 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:44 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:44 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:44 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:44 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:44 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:44 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:45 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:45 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:45 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:45 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:45 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:45 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:50 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:50 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:50 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:50 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:50 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:50 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:56 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:52:56 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:56 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:52:56 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:52:56 UTC] PHP Stack trace:
+[15-Jun-2024 12:52:56 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:54:49 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:54:49 UTC] PHP Stack trace:
+[15-Jun-2024 12:54:49 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:54:49 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:54:49 UTC] PHP Stack trace:
+[15-Jun-2024 12:54:49 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:54:52 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:54:52 UTC] PHP Stack trace:
+[15-Jun-2024 12:54:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:54:52 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:54:52 UTC] PHP Stack trace:
+[15-Jun-2024 12:54:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:09 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:59:09 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:09 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:59:09 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:19 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:59:19 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:19 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:59:19 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:21 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:59:21 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:21 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:21 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:59:21 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:21 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 12:59:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 12:59:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 12:59:29 UTC] PHP Stack trace:
+[15-Jun-2024 12:59:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:56:55 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:56:55 UTC] PHP Stack trace:
+[15-Jun-2024 18:56:55 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:56:55 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:56:55 UTC] PHP Stack trace:
+[15-Jun-2024 18:56:55 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:56:58 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:56:58 UTC] PHP Stack trace:
+[15-Jun-2024 18:56:58 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:56:58 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:56:58 UTC] PHP Stack trace:
+[15-Jun-2024 18:56:58 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:09 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:57:09 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:09 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:57:09 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:17 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:57:17 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:17 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:17 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:57:17 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:17 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:18 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:57:18 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:18 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:57:18 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:19 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:57:19 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:19 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:57:19 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:38 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:57:38 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:38 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:57:38 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:57:38 UTC] PHP Stack trace:
+[15-Jun-2024 18:57:38 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:58:44 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:58:44 UTC] PHP Stack trace:
+[15-Jun-2024 18:58:44 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:58:44 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:58:44 UTC] PHP Stack trace:
+[15-Jun-2024 18:58:44 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:00 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:59:00 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:00 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:00 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:59:00 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:00 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:04 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:59:04 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:04 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:04 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:59:04 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:04 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:09 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:59:09 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:09 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:59:09 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:09 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:16 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:59:16 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:16 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:16 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:59:16 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:16 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:35 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:59:35 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:35 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:35 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:59:35 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:35 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:56 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 18:59:56 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:56 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 18:59:56 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 18:59:56 UTC] PHP Stack trace:
+[15-Jun-2024 18:59:56 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:27 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:27 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:27 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:27 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:27 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:27 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:29 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:29 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:41 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:41 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:41 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:41 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:41 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:41 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:51 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:51 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:51 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:51 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:51 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:51 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:52 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:52 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:52 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:52 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:53 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:53 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:53 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:53 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:55 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:01:55 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:55 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:01:55 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:01:55 UTC] PHP Stack trace:
+[15-Jun-2024 19:01:55 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:16 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:02:16 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:16 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:16 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:02:16 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:16 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:18 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:02:18 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:18 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:02:18 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:19 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:02:19 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:19 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:02:19 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:19 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:38 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:02:38 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:38 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:38 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:02:38 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:38 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:47 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:02:47 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:47 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:47 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:02:47 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:47 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:53 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:02:53 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:02:53 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:02:53 UTC] PHP Stack trace:
+[15-Jun-2024 19:02:53 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:03:02 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:03:02 UTC] PHP Stack trace:
+[15-Jun-2024 19:03:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:03:02 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:03:02 UTC] PHP Stack trace:
+[15-Jun-2024 19:03:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:03:22 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:03:22 UTC] PHP Stack trace:
+[15-Jun-2024 19:03:22 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:03:22 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:03:22 UTC] PHP Stack trace:
+[15-Jun-2024 19:03:22 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:10:40 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:10:40 UTC] PHP Stack trace:
+[15-Jun-2024 19:10:40 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:10:40 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:10:40 UTC] PHP Stack trace:
+[15-Jun-2024 19:10:40 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:11:05 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:11:05 UTC] PHP Stack trace:
+[15-Jun-2024 19:11:05 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:11:05 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:11:05 UTC] PHP Stack trace:
+[15-Jun-2024 19:11:05 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:11:32 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:11:32 UTC] PHP Stack trace:
+[15-Jun-2024 19:11:32 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:11:32 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:11:32 UTC] PHP Stack trace:
+[15-Jun-2024 19:11:32 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:11:33 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:11:33 UTC] PHP Stack trace:
+[15-Jun-2024 19:11:33 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:11:33 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:11:33 UTC] PHP Stack trace:
+[15-Jun-2024 19:11:33 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:13:23 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:13:23 UTC] PHP Stack trace:
+[15-Jun-2024 19:13:23 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:13:23 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:13:23 UTC] PHP Stack trace:
+[15-Jun-2024 19:13:23 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:23:29 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:23:29 UTC] PHP Stack trace:
+[15-Jun-2024 19:23:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:23:29 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:23:29 UTC] PHP Stack trace:
+[15-Jun-2024 19:23:29 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:24:10 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:24:10 UTC] PHP Stack trace:
+[15-Jun-2024 19:24:10 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:24:10 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:24:10 UTC] PHP Stack trace:
+[15-Jun-2024 19:24:10 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:24:18 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 19:24:18 UTC] PHP Stack trace:
+[15-Jun-2024 19:24:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 19:24:18 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 19:24:18 UTC] PHP Stack trace:
+[15-Jun-2024 19:24:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:02 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 20:54:02 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:02 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 20:54:02 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:02 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:26 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 20:54:26 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:26 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 20:54:26 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:26 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:37 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 20:54:37 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:37 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 20:54:37 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:37 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:52 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 20:54:52 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:54:52 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 20:54:52 UTC] PHP Stack trace:
+[15-Jun-2024 20:54:52 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:55:18 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 20:55:18 UTC] PHP Stack trace:
+[15-Jun-2024 20:55:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:55:18 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 20:55:18 UTC] PHP Stack trace:
+[15-Jun-2024 20:55:18 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:55:34 UTC] PHP Warning:  Undefined array key "name_user" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 17
+[15-Jun-2024 20:55:34 UTC] PHP Stack trace:
+[15-Jun-2024 20:55:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[15-Jun-2024 20:55:34 UTC] PHP Warning:  Undefined array key "monitorista" in /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php on line 18
+[15-Jun-2024 20:55:34 UTC] PHP Stack trace:
+[15-Jun-2024 20:55:34 UTC] PHP   1. {main}() /home/dv4i40wm3rs9/public_html/OperacionMonitoreo/php/setMonitoreo.php:0
+[29-Jul-2024 12:51:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Host 'p3plzcpnl450414.prod.phx3.secureserver.net' is not allowed to connect to this MariaDB server in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php:12
+Stack trace:
+#0 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php(12): mysqli->__construct()
+#1 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/insert_Notificaciones.php(7): ConexionBD->conectar()
+#2 {main}
+  thrown in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php on line 12
+[10-Aug-2024 18:16:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Host 'p3plzcpnl450414.prod.phx3.secureserver.net' is not allowed to connect to this MariaDB server in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php:12
+Stack trace:
+#0 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php(12): mysqli->__construct()
+#1 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/insert_Notificaciones.php(7): ConexionBD->conectar()
+#2 {main}
+  thrown in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php on line 12
+[25-Aug-2024 08:06:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Host 'p3plzcpnl450414.prod.phx3.secureserver.net' is not allowed to connect to this MariaDB server in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php:12
+Stack trace:
+#0 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php(12): mysqli->__construct()
+#1 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/insert_Notificaciones.php(7): ConexionBD->conectar()
+#2 {main}
+  thrown in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php on line 12
+[07-Sep-2024 16:54:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php:12
+Stack trace:
+#0 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php(12): mysqli->__construct()
+#1 /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/insert_Notificaciones.php(7): ConexionBD->conectar()
+#2 {main}
+  thrown in /home/dv4i40wm3rs9/public_html/MonitoreoHRH/php/ConexionBD.php on line 12

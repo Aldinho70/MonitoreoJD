@@ -1,0 +1,151 @@
+body {
+  padding-bottom: 60px; 
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#map {
+  width: 100%;
+   height:calc(100vh - 340px) ;
+}
+
+/* Style navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/*Style menu izquierdo */
+.fixed-left {
+    position: fixed;
+    top: 70px; /* Margen superior para evitar solapamiento con el navbar */
+    left: 0;
+    width: 300px;
+    height: calc(100vh - 50px); /* Altura ajustada para evitar el footer */
+    background-color: #f8f9fa;
+    border-right: 1px solid #ccc;
+    padding: 5px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.units-all{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Style contenedor principal */
+.content {
+  /* margin-left: 300px; Margen para evitar solapamiento con el div fijo a la izquierda */
+  margin-top: 60px; /* Margen superior para evitar solapamiento con el navbar */
+  margin-bottom: 60px; /* Margen inferior para evitar solapamiento con el footer */
+  padding: 5px;
+  
+}
+
+/* .content { */
+  /*margin-left: 420px; /* Margen para evitar solapamiento con el div fijo a la izquierda */
+  /*margin-top: 60px; /* Margen superior para evitar solapamiento con el navbar */
+  /*margin-bottom: 60px; /* Margen inferior para evitar solapamiento con el footer */
+  /* padding: 10px;
+    height: calc(100% - 110px);
+} */
+
+#table_units{
+  position: none;
+  height: 15px;
+  overflow-x: auto;
+}
+/* Style para el footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.text-footer {
+  font-size: 12px;
+}
+
+#divFlotante {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0.0);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+  /* Para que esté por encima del mapa */
+  /* resize: both; */
+  /* Permite redimensionar el div por el usuario */
+   /* overflow: auto;  */
+  /* Para que se pueda hacer scroll si el contenido es grande */
+  min-width: 200px;
+  /* Ancho mínimo del div */
+  min-height: 100px;
+  /* Altura mínima del div */
+  max-width: 700px;
+  /* Ancho máximo del div */
+  max-height: 400px;
+  /* Altura máxima del div */
+  cursor: move;
+  /* Cambiar el cursor a "mover" al pasar sobre el div */
+}
+
+.scrollable-div{  
+  height: calc(100% - 110px); /* Cambia la altura máxima según sea necesario */
+  overflow-y: auto;
+  padding: 10px;
+}
+
+
+#recorridounit {
+  width: 100%;
+  height: 400px;
+
+  /* width:"100%";
+  height:"400px"; */
+}
+
+.unit {
+  cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------------------------------  */
+/* Style's */
+#log {
+  border: 1px solid #c6c6c6;
+}
+
+.icon {
+  float: left;
+  margin: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------  */
+/* style color */
+ /* Estilo para los divs superpuestos */
+ .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Fondo semi-transparente */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+table{
+  width: 100%;
+}

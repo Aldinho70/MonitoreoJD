@@ -1,0 +1,80 @@
+.alert-btn-desconexion {
+    animation: pulse 1s infinite alternate, changeColor_danger 2s infinite;
+  }
+  
+  .alert-btn-jammer {
+    animation: pulse 1s infinite alternate ;
+  }
+
+  .alert-btn{
+    animation: pulse 1s infinite alternate ;
+  }
+  
+  .alert-btn-geocerca {
+    animation: pulse 1s infinite alternate, changeColor_atention 2s infinite;
+  }
+  
+  /* Animacion de movimiento del btn */
+  @keyframes pulse {
+    0% {
+      transform: scale(.75);
+    }
+    
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Configuracion para los btn de tipo danger */
+  @keyframes changeColor_danger {
+    0%,
+    50% {
+      background-color: #f8d7da;
+      /* Rojo */
+      border-color: #f5c6cb;
+      color: #721c24;
+    }
+  
+    100% {
+      background-color: red;
+      /* Verde */
+      border-color: red;
+      color: red;
+    }
+  }
+  
+  /* Configuracion para los btn de tipo warning */
+  @keyframes changeColor_warning {
+    0%,
+    50% {
+      background-color: #f4f8d7;
+      /* Rojo */
+      border-color: #f0f5c6;
+      color: #6f721c;
+    }
+  
+    100% {
+      background-color: orange;
+      /* Verde */
+      border-color: orange;
+      color: orange;
+    }
+  }
+  
+  /* Configuracion para los btn de tipo warning */
+  @keyframes changeColor_atention {
+    0%,
+    50% {
+      background-color: #daf8d7;
+      /* Rojo */
+      border-color: #c8f5c6;
+      color: #1c7223;
+    }
+  
+    100% {
+      background-color: green;
+      /* Verde */
+      border-color: green;
+      color: green;
+    }
+  }

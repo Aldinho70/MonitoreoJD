@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Monitoreo JD</title>
+
+    <link rel="icon" href="img/faviconjd.png" type="image/png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+
+    <!-- Datatable -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" />
+
+    <!-- Font Awesome CSS for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <!-- SELECT2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- css estaticos -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/events.css" />
+    <link rel="stylesheet" href="./css/alert-btn.css" />
+    <link rel="stylesheet" href="./css/groups.css" />
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo a la izquierda -->
+            <a class="navbar-brand text-warning" href="#">
+                <img src="img/logojd.png" alt="" width="30" height="24" class="d-inline-block align-text-top" />
+                Jornada Digital
+            </a>
+    
+            <!-- Btn de colapsar navbar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Menú colapsable con opciones -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="showStatus();" id="btn-status">
+                            Estatus de la unidades
+                        </button>
+                    </li>
+                    <li class="nav-item d-flex gap-2">
+                        <button class="btn btn-sm btn-secondary d-flex align-items-center position-relative" onclick="showModal('#modal-notificaciones');">
+                            <i class="bi bi-bell-fill me-2"></i> <!-- Icono de campana -->
+                            Notificaciones
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cont_notificacion_gral" id="cont_notificacion">0</span>
+                        </button>
+                    </li>
+                </ul>
+                <!-- Menu de opciones del usuario -->
+                <div class="ms-auto text-danger d-flex align-items-center">
+                    <div class="btn-group me-3" role="group">
+                        <button type="button" class="btn btn-sm btn-warning dropdown-toggle" id="user_Wialon" data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="btn-logout" href="index.html">Cerrar sesion</a></li>
+                            <li><a class="dropdown-item" id="btn-sarch_unit" onclick="searchUnit()">Buscar unidad</a></li>
+                        </ul>
+                        <span id="token" style="display: none;"></span>
+                        <span id="session_finish" style="display: none;"></span>
+                    </div>
+    
+                    <!-- Botón de carga -->
+                    <button class="btn btn-sm btn-primary" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                        <span id="timer" role="status">Se actualizará en 0 segundos...</span>
+                    </button>
+                </div>
+            </div>
+    
+        </div>
+        <!-- Logo a la derecha -->
+        <a class="navbar-brand text-warning" href="#">
+            <!-- <img src="img/logosetramex.png" alt=""  height="24" class="d-inline-block align-text-top" /> -->
+        </a>
+    </nav>
+    
+
+    <!-- Contenido principal -->
+    <div class="content ">
+        <div class="row">
+            <!-- Operaciones -->
+            <div class="col-6 bg-light " id="root_button_module">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12 btn-module" id="button_module1"></div>
+                    <div class="col-md-6 col-sm-12 btn-module" id="button_module2"></div>
+                </div>
+            </div>
+            <!-- Tabla de unidades -->
+            <div class="col-3 border bg-secondary">
+                <div class="text-center">
+                    <span class="badge rounded-pill text-bg-secndary text center fs-6">Tabla de unidades</span>
+                    <hr class="border border-light border-2 opacity-50">
+                </div>
+                <div class="scrollable-table">
+                    <table class="table table-striped " id="table-units2">
+                        <thead>
+                            <tr>
+                                <th scope="col">Unidades</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Mapa de Google -->
+            <div class="col-3 " id="root_map">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12056968.853393214!2d-107.62598133942769!3d23.063351333122786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffe85c8ebceb%3A0x96c692b8bf86a8b1!2sM%C3%A9xico!5e0!3m2!1sen!2sus!4v1646958906545!5m2!1sen!2sus&zoom=5&markers=color:red%7Clabel:M%7C23.634501,-102.552784&maptype=satellite"
+                                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-12  ">
+                        <table class="table " id="table-info">
+                            <thead>
+                                <tr>
+                                    <th scope="col"> <img src="img/logojd.png" width="24" alt=""> </th>
+                                    <th scope="col">Informacion de la</th>
+                                    <th scope="col"></th>
+                                    <th scope="col"><button class="btn btn-secondary">Mas opciones</button></th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Origen:</th>
+                                    <td colspan="4"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Destino:</th>
+                                    <td colspan="4"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Estatus:</th>
+                                    <td colspan="4"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------- -->
+    <!-- MODALES -->
+    <!-- Notificaciones  -->
+        <div class="modal " tabindex="-1" id="modal-notificaciones">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Notificaciones <span class="cont-notifiaciones"></span></h5>
+                        <button type="button" class="btn btn-close bg-danger " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="notifi">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- ----------- -->
+
+    <!-- Temperaturas  -->
+        <div class="modal " tabindex="-1" id="modal-temperatura">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Fallas de temperatura <span class=""></span></h5>
+                        <button type="button" class="btn btn-close bg-danger " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="modal-body-temperature">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Unidad</th>
+                                    <th scope="col">Temperatura</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body-temperature">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- ----------- -->
+
+    <!-- Modal de campos personalizados -->
+    <div class="modal" tabindex="-1" id="modal_campos_personalizados">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Campos personalizados de la unidad <span id="name_unit_modal"></span> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table id="table" class="table">
+                        <tbody id="modal_body_campos_personalizados">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal de recorrido de la unidad -->
+    <div class="modal" tabindex="-1" id="modal-recorridounit">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Recorrido de la unidad <span id="name_unit_modal"></span> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="recorridounit"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal ultimos mensajes de la unidad -->
+    <div class="modal" tabindex="-1" id="modal-ultimosmensajes">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ultimos mensajes de la unidad <span id="name_unit_modal"></span> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table id="messages"> </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal sensores de la unidad -->
+    <div class="modal" tabindex="-1" id="modal-sensores">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sensores de la unidad <span class="name_unit_modal"></span> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="sensores_modal">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal del mapa -->
+    <div class="modal fade" id="dynamicModal" tabindex="-1" aria-labelledby="dynamicModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content" id="modal-content">
+            <!-- Contenido dinámico generado por JS -->
+          </div>
+        </div>
+      </div>
+      
+      
+    <!-- -------------- -->
+
+     <!-- Estatus de las unidades  -->
+    <div class="modal " tabindex="-1" id="modal-estatus">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title">Estatus de la unidad</h5>
+                    <button type="button" class="btn btn-close bg-danger " data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="">
+                    <div class="row">
+                        <div class="col-3 border-end border-success">
+                            <h3 class="text-center">VACIO</h3>
+                            <table class="table table-light table-striped table-status-units" id="VACIO" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Unidades</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="TABLE_VACIO" class=" status-table">
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-3 border-end border-success">
+                            <h3 class="text-center">CARGADO</h3>
+                            <table class="table table-light table-striped table-status-units" id="CARGADO" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Unidades</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="TABLE_CARGADO" class=" status-table">
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-3 border-end border-success">
+                            <h3 class="text-center">ESPERA DESCARGA</h3>
+                            <table class="table table-light table-striped table-status-units" id="ESPERA_DESCARGA" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Unidades</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="TABLE_ESPERA_DESCARGA" class=" status-table">
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-3 border-end border-success">
+                            <h3 class="text-center">ESPERA CARGA</h3>
+                            <table class="table table-light table-striped table-status-units" id="ESPERA_CARGA" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Unidades</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="TABLE_ESPERA_CARGA" class=" status-table">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <button class="btn btn-success" id="btn-save-status" onclick="collectStatus();">Guardar
+                        cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <!-- Estatus de las unidades  -->
+    <div class="modal fade" tabindex="-1" id="modal-search_units">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Buscar unidad</h5>
+                    <button type="button" class="btn btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <select class="form-select w-100" id="select_unit_search" aria-label="Buscar unidad"></select>
+                </div>
+                <button type="button" class="btn btn-primary" id="btn_search_select_unit" onclick="getOptionSelectUnitSearch();">
+                    Buscar unidad
+                </button>                
+            </div>
+        </div>
+    </div>
+
+    <!-- Origen Destino de las unidades -->
+    <div class="modal " tabindex="-1" id="modal-origen-destino">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modificar Origen y Destino </h5>
+                    <button type="button" class="btn btn-close bg-danger " data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="">
+                    <img src="" alt="" id="img-origen-destino">
+                    <h4 id="name_unit-origen-destino" ></h4>
+                    <hr>
+                    <h6 id="info_origen"></h6>
+                    <h6 id="info_destino"></h6>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <label for="select-origen" class="form-label">Origen:</label>
+                            <select class="form-select select-origen-destino"  name="origen" id="select-origen" ></select>
+                        </div>
+                        <div class="col">
+                            <label for="select-destino" class="form-label">Destino:</label>
+                            <select class="select-origen-destino"  name="destino"  id="select-destino"></select>
+                        </div>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                    <button type="button" class="btn btn-success" onclick="collectRoute();">Guardar</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Monitorista -->
+    <div class="modal" tabindex="-1" id="modal-monitorista" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Selecciona monitorista</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="notifi">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-floating mb-3">
+                            <select class="form-select" id="select-monitorista" required>
+                                <option value="" selected disabled>Selecciona al monitorista</option>
+                            </select>
+                            <label for="select-monitorista">Selecciona al monitorista</label>
+                            <div class="invalid-feedback">Por favor, selecciona un monitorista.</div>
+                        </div>
+                        <hr>
+                        <div class="mb-3">
+                            <label for="time-monitorista" class="form-label">Selecciona la hora que terminas tu
+                                turno</label>
+                            <input type="time" class="form-control" id="time-monitorista" name="time-monitorista"
+                                min="09:00" max="18:00" required>
+                            <div class="invalid-feedback">Por favor, selecciona una hora válida entre las 09:00 y las
+                                18:00.</div>
+                        </div>
+                        <hr>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal"
+                            onclick="getNameMonitorista();">Seleccionar</button>
+                    </form>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+
+    <!-- Toast flotante de notificaciones entrantes -->
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div class="mt-5"></div>
+        <div id="Toast_Notification" class="toast" role="alert" aria-live="assertive" aria-atomic="true"></div>
+    </div>
+
+    <!--Toast flotante de bienvenida al monitorista  -->
+    <div class="toast-container bg-secondary top-50 start-50 translate-middle">
+        <div id="WelcomeMonitorista" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="./img/logojd.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                <strong class="me-auto fs-3">Bienvenido <span
+                        class="badge rounded-pill text-bg-warning monitorista"></span></strong>
+
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <p class="fs-6"> Que tengas un buen turno.!</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Toast flotante de otificacion atendida alert -->
+    <div class="toast-container bg-secondary top-0 start-0">
+        <div id="NotificacionAtendida" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="./img/logojd.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                <strong class="me-auto fs-3">Notificion atendida</strong>
+
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <Strong class="fs-6" id="name_unit_notifi_atendida"> </Strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast flotante de bienvenida al usuario inicial  -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="welcomeinit" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="./img/logojd.png" width="30" height="24" class="rounded me-2 " alt="...">
+                <strong class="me-auto">Bienvenido</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Ingresando con la cuenta <span id="name_user_init"></span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-footer">© 2024 DIseñado por JMBobadilla y NullPointer para uso exclusivo de Jornada
+                Digital 🛰</span>
+        </div>
+    </footer>
+
+    <!-- Wialon -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="//hst-api.wialon.com/wsdk/script/wialon.js"></script>
+
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- datatables -->
+    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.bootstrap5.min.js"></script>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- SELECT 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <!-- estaticos -->
+    <script src="js/index.js" type="module"></script>
+    <script src="js/eventsTable.js"></script>
+    <!-- <script src="./helper/events.js"></script> -->
+</body>
+
+</html>
