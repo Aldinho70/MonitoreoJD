@@ -188,7 +188,6 @@ function getStateconection(vehicle) { //AGREGA STATE A GPS ( ONLINE, OFFLINE )
 }
 
 export function getState(objeto) { //AGREGA STATE A SENSORES ( SINCONEXION, APAGADAS, RALENTI, MOVIMIENTO )
-    console.log( objeto );
     if ( objeto.gps ){
         if (objeto.gps.State == 'Online') {
             if (objeto.sensors.State == 'apagadas') {

@@ -29,7 +29,7 @@ export const env = {
         }, 
     Name_cajas: 'TK-',
     grupoInteres_modules: {
-        'Cajas': ['ralenti', /*'apagadas', 'sin_conexion', 'movimiento'*/],
+        'Cajas': ['ralenti','warning' /*'apagadas', 'sin_conexion', 'movimiento'*/],
         'Dobles': ['ralenti', 'apagadas', 'movimiento'],
     },
     Temperature: 'false',

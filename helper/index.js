@@ -16,6 +16,8 @@ export function create_button_module(data, id_tag, filter) {
     for (const titulo in data) {
         if (Object.keys(filter).includes(titulo)) {
 
+            console.log( data, id_tag, filter );
+            
             const _titulo = filter[titulo];
             const _status_remove = (env.grupoInteres_modules[_titulo]) ? env.grupoInteres_modules[_titulo] : [];
             const _data = data[titulo];             
@@ -26,6 +28,9 @@ export function create_button_module(data, id_tag, filter) {
             const contWarning = Object.keys(_data.warning).length;
             const contGeneral = contApagadas + contRalenti + contMovimiento + contSinConexion + contWarning;
 
+            console.log(_status_remove);
+            console.log(_titulo);
+            
             $(id_tag).append(`<!-- Grupo -->
                 <div class="toast fade show w-100 " role="alert" aria-live="assertive" aria-atomic="true" id="${_titulo.replaceAll(" ", "_")}">
                     <div class="toast-header text-bg-ligth ${/*text-bg-${env.bootstrap[_titulo]}*/ ""}">
@@ -49,6 +54,17 @@ export function create_button_module(data, id_tag, filter) {
                                 <i class="bi bi-power d-xl-none"></i>
                                 <span class="badge text-bg-secondary cont" id="cont-${titulo}-apagadas">${contApagadas}</span>                                    
                             </button>
+                            <!--UNIDADES QUE LLEVAN DIAS SIN CONEXION-->
+                                ${ ( _titulo == 'Dobles' || _titulo == 'Cajas' ) 
+                                    ? `<button type="button" 
+                                        class="btn btn-danger p-1" onclick="getInfoUnits('${titulo}', 'warning')">
+                                        <span class="font- d-none d-xl-inline fs-6">Unidad sin reportar</span>  
+                                        <i class="bi bi-power d-xl-none"></i>
+                                        <span class="badge text-bg-dark cont" id="cont-${titulo}-warning">${contWarning}</span>                                    
+                                        </button>` 
+                                    : ''
+                                }
+                            <!--UNIDADES QUE LLEVAN DIAS SIN CONEXION-->
                         </small>                                        
                     </div>
                     <div class="toast-body">

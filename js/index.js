@@ -164,6 +164,8 @@ function getInfoUnits( modulo, estado, id_tag ){
             const _units = TODO[ _modulo ];
             if( estado == 'general'  ){
                 const { apagadas, movimiento, ralenti, sinconexion, warning } = _units
+                console.log( 'warning', warning );
+                
                 const allUnits = { ...apagadas, ...movimiento, ...ralenti, ...sinconexion, ...warning };
                 create_table_module( allUnits, '#table-tbody' );                
             }else{
